@@ -1,8 +1,4 @@
-server:
-  port: 8888
-
 zuul:
   host:
     maxTotalConnections: 200
     maxPerRouteConnections: 20
-  ribbonIsolationStrategy:THREAD
