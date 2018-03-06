@@ -2,4 +2,11 @@ server:
   port: 8181
 
 zipkin:
-  base-url: http://192.168.1.199:11008/
+  base-url: http://192.168.1.199:11008
+
+sleuth:
+    #监控开关
+    enabled: true
+    #采样率
+    sampler:
+      percentage: 1
